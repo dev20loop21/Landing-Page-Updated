@@ -1,0 +1,88 @@
+/*set background of body section*/
+body{
+    background-color: #232249;
+}
+
+/*style div elements while mouseover*/
+.section:hover {
+    background-color:#232324;
+    float: left;
+    text-align: left;
+     }
+
+/*style title of each div*/
+h2{
+    color:#f3f3f3 ;
+}
+
+/*style list elements*/
+.list{
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    display: block;
+      }
+
+/*set font family*/
+@font-face{
+    font-family:'Rubik', sans-serif;;
+    src:url(/assets/fonts/Rubik-medium.ttf) ;
+    font-style: normal;
+    font-weight: 20pt;
+}
+
+/*style div elements*/
+.section{
+    float: left;
+    text-align: left;
+    color:#bdb76b ;
+    font-family:Rubic ;
+    font-weight: 20pt;
+}
+
+/*set position of section 2 and 4 text*/
+#section2, #section4{
+    text-align: right;
+}
+
+/*set new font family*/
+@font-face{
+    font-family:'Rubik', sans-serif;;
+    src:url(/assets/fonts/Rubik-Bold.ttf) ;
+    font-style: normal;
+    font-weight: 15pt;
+}
+
+/*style nav menu links that correspond to div elements*/
+.menu_item_link{
+    color:#3c1874;
+    font-family:Rubik;
+    font-size: 15pt;
+    text-decoration:none ;
+    }
+
+/*set the scroll behavior as smooth*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*style navigation menu*/
+    nav{
+        height: 50px ;
+        background-color: #f3f3f3;
+        width: 100%;
+        position: fixed;
+        top: 0%;
+    }
+
+/*style scroll to top button*/
+    button{
+        background-color:#3c1874 ;
+        height:25px ;
+        width: 120px;
+        color:#f3f3f3 ;
+        float: right;
+        font-family: Rubik;
+        font-size: 10pt;
+        position:sticky;                 
+    }
